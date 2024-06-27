@@ -52,7 +52,7 @@ public static class Kata
 }
 ```
 ## Experience
-[Web page for a coffee shop (training project)](https://github.com/ekavost/coffeShop.github.io.git)
+[Web page for a coffee shop (training project)](https://ekavost.github.io/coffeShop.github.io/)
 
 [CV](https://github.com/ekavost/rsschool-cv.git)
 
