@@ -1,5 +1,5 @@
 # Ekaterina Vostrikova
-<img src="./photo.png" width="150">
+<img src="./images/photo.png" width="150">
 
 ## Contacts
 **Location:** Torrevieja, Spain
