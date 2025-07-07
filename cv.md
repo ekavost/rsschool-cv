@@ -8,7 +8,7 @@
 
 **Email:** ekavos@hotmail.com
 
-**Phone:** +34 xxxxxxxxx **\* \***
+**Phone:** +34 645 **\* \***
 
 **GitHub:** [ekavost](https://github.com/ekavost)
 
