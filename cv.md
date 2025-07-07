@@ -1,6 +1,6 @@
 # Ekaterina Vostrikova
 
-<img src="./photo.jpg" width="150">
+<img src="./photo.png" width="150">
 
 ## Contacts
 
