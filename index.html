@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV Ekaterina Vostrikova</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="header__flex-item_top">
+          <img class="header__flex-item_top_photo" src="./images/photo.png" alt="photo Ekaterina" />
+          <div class="header__flex-item_top_text">
+            <h1>Ekaterina Vostrikova</h1>
+            <h2>Web-developer</h2>
+          </div>
+        </div>
+        <nav class="header__flex-item_bottom">
+          <ul class="header__nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="section__left">
+          <div class="section__left_top">
+            <h2 id="contacts">Contacts</h2>
+            <hr />
+            <ul>
+              <li>Location: Torrevieja, Spain</li>
+              <li>Email: <a href="mailto:ekavos@hotmail.com">ekavos@hotmail.com</a></li>
+              <li>Phone: +34 *** *** ***</li>
+              <li>GitHub:<a href="https://github.com/ekavost" target="_blank">ekavost</a></li>
+              <li>Discort: ekavost(@ekavost)</li>
+            </ul>
+          </div>
+          <div class="section__left_middle">
+            <h2 id="skills">Skills</h2>
+            <hr />
+            <ul>
+              <li>HTML, CSS, Bootstrap, Vuetify</li>
+              <li>JavaScript, Vue.js</li>
+              <li>PHP, Laravel (basics)</li>
+              <li>C#, ASP.NET (basics)</li>
+              <li>SQL</li>
+              <li>Git, GitHub, VS, VS Code</li>
+            </ul>
+          </div>
+          <div class="section__left_bottom">
+            <h2>Education</h2>
+            <hr />
+            <ul>
+              <li>(2017 - 2021) Novosibirsk State University, linguistics (Novosibirsk, Russia)</li>
+              <li>(2023 - 2025) IES Mare Nostrum, web-developer (Alicante, Spain)</li>
+            </ul>
+            <hr />
+            <h2>Languages</h2>
+            <ul>
+              <li>English: B2-C1</li>
+              <li>Spanish: B2-C1</li>
+              <li>Russian: native</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section__main">
+          <div class="section__main_first">
+            <h2 id="about">About me</h2>
+            <hr />
+            <p>
+              Aspiring web developer with a passion for quality and thoughtful solutions, I am
+              committed to continuous learning and growth. My strengths include teamwork, analytical
+              thinking, and a strong work ethic. Recently completed Higher Technical Degree in Web
+              Application Development, including practical frontend-focused experience. Eager to
+              apply my skills in coding and design.
+            </p>
+          </div>
+          <div class="section__main_second">
+            <h2 id="code">Code example (C#)</h2>
+            <hr />
+            <h4 class="content_task">Task:</h4>
+            <p class="content_task">
+              The first input array is the key to the correct answers to an exam, like ["a", "a",
+              "b", "d"]. The second one contains a student's submitted answers.The two arrays are
+              not empty and are the same length. Return the score for this array of answers, giving
+              +4 for each correct answer, -1 for each incorrect answer, and +0 for each blank
+              answer, represented as an empty string.
+            </p>
+            <pre>
+          <code>
+            using System;
+            
+            public static class Kata
+            {
+                public static int CheckExam(string[] arr1, string[] arr2)
+                {
+                    int result = 0;
+            
+                    for (int i = 0; i &lt; arr1.Length; i++)
+                    {
+                      if (arr1[i] == arr2[i])
+                        result += 4;
+                      
+                      else if (arr2[i] != "")
+                        result -= 1;
+                    }
+                  if (result &lt; 0)
+                    result = 0;
+                  return result;
+                }
+            }
+          </code>
+        </pre>
+          </div>
+          <div class="section__main_third">
+            <h2 id="projects">Work examples</h2>
+            <hr />
+            <ul>
+              <li><a href="https://ekavost.github.io/rsschool-cv/cv" target="_blank">CV</a></li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer__flex-item">
+          <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"
+            ><img src="./images/RS_logo_transparent.png" alt="RS school"
+          /></a>
+        </div>
+        <div class="footer__flex-item">
+          <a href="https://github.com/ekavost" target="_blank"
+            ><img src="./images/github_logo-transparent.png" alt="GitHub page"
+          /></a>
+        </div>
+        <p class="footer__flex-item">2025</p>
+      </footer>
+    </div>
+  </body>
+</html>
